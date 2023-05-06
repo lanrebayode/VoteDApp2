@@ -1,0 +1,543 @@
+
+.InitiateForm{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.InitiateForm_box{
+    width: 40%;
+    border-radius: 3rem;
+    margin: auto;
+    padding-block: 2rem;
+    text-align: center;
+    display: block;
+    box-shadow: 2px 1px 3px 3px rgb(141, 135, 135);
+    padding: 2rem 2rem;
+    
+}
+
+.InitiateForm_box h3{
+    font-weight: 800;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: rgb(82, 29, 188);
+}
+
+.InitiateForm_box_form{
+    text-align: left;
+}
+
+.InitiateForm_box_form_label{
+    background-color: rgb(119, 77, 210);
+    border-top-left-radius: .4rem;
+    border-bottom-left-radius: .4rem;
+    padding: .6rem;
+    margin-bottom: 1rem;
+    color: white;
+    
+    font-weight: 700;
+    
+}
+
+.InitiateForm_box_form{
+    display: grid;
+    gap: 2rem;
+}
+
+.InitiateForm_box_form_input{
+    background: transparent;
+    border: solid 2px rgb(144, 105, 222);
+    border-top-right-radius: .4rem;
+    border-bottom-right-radius: .4rem;
+    padding: .6rem;
+    width: 50%;
+    align-items: center;
+}
+
+.InitiateForm_box_form_res input {
+  cursor: pointer;
+  height: 1.2rem;
+  width: 1.2rem;
+  position: relative;
+  top: 4px;
+}
+
+.InitiateForm_box_form_duration input{
+    width: 3rem;
+    height: 2rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: solid 2px rgb(144, 105, 222);
+    
+}
+.InitiateForm_box_form_start input{
+    width: 3rem;
+    height: 2rem;
+    background: transparent;
+    border-radius: .5rem;
+    border: solid 2px rgb(144, 105, 222);
+}
+
+.InitiateForm_box_form_name{
+    margin-bottom: 1.5rem;
+}
+.InitiateForm_box_form_res{
+    margin-bottom: 1.5rem;
+}
+.InitiateForm_box_form_duration{
+    margin-bottom: 1.5rem;
+}
+.InitiateForm_box_form_start{
+    margin-bottom: 1.5rem;
+}
+
+.InitiateForm_box_form_btn{
+    text-align: center;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 1rem;
+    background-color: rgb(144, 105, 222);
+    color: white;
+    font-weight: 800;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.InitiateForm_box_form_btn:hover{
+    background-color: rgb(82, 29, 188);
+}
+
+.candidateBox{
+    text-align: left;
+}
+
+.candidate_id{
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.candidate_id input{
+    width: 5rem;
+    height: 1.4rem;
+    border:  none;
+    text-align: center;
+   border-radius: .4rem;
+   
+}
+
+.candidate_img{
+    margin-bottom: 2rem;
+}
+
+.candidate_img input{
+    border: none;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.approve{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+    text-align: left;
+}
+
+.approveLabel{
+    margin-bottom: .5rem;
+    padding-bottom: 0rem ;
+}
+
+.approveLabel label{
+    margin-bottom: 2rem;
+    background-color: rgb(119, 77, 210);
+    padding: .5rem;
+    border-radius: .3rem;
+    color: white;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.approveLabel input{
+    border-radius: .3rem;
+    border: none;
+}
+
+.appovalMessage{
+    color: rgb(48, 120, 48);
+    font-family: sans-serif;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .InitiateForm_box{
+    width: 80%;
+    border-radius: 1rem;
+    margin: auto;
+    padding-block: 1rem;
+    text-align: center;
+    display: block;
+    box-shadow: 2px 1px 3px 3px rgb(141, 135, 135);
+    padding: 2rem 2rem;
+    
+}
+
+.InitiateForm_box h3{
+    font-size: 1rem;
+}
+
+.InitiateForm_box_form{
+    text-align: left;
+}
+
+.InitiateForm_box_form_label{
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+    padding: .4rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+}
+
+.InitiateForm_box_form{
+    display: grid;
+    gap: .7rem;
+}
+
+.InitiateForm_box_form_input{
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+    padding: .3rem;
+    width: 50%;
+}
+
+.InitiateForm_box_form_res input {
+  cursor: pointer;
+  height: 1.1rem;
+  width: 1.1rem;
+}
+
+.InitiateForm_box_form_duration input{
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: .3rem;
+    background: transparent;
+    border: solid 2px rgb(144, 105, 222);
+    
+}
+.InitiateForm_box_form_start input{
+    width: 2rem;
+    height: 1.5rem;
+    background: transparent;
+    border-radius: .3rem;
+    border: solid 2px rgb(144, 105, 222);
+}
+
+.InitiateForm_box_form_name{
+    margin-bottom: 1rem;
+}
+.InitiateForm_box_form_res{
+    margin-bottom: 1rem;
+}
+.InitiateForm_box_form_duration{
+    margin-bottom: 1rem;
+}
+.InitiateForm_box_form_start{
+    margin-bottom: 1rem;
+}
+
+.InitiateForm_box_form_btn{
+    text-align: center;
+    padding: .5rem;
+    width: 50%;
+    border-radius: .5rem;
+    background-color: rgb(144, 105, 222);
+    color: white;
+    font-weight: 800;
+    font-size: .8rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+
+.candidateBox{
+    text-align: left;
+}
+
+.candidate_id{
+    margin-bottom: 1.4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.candidate_id input{
+    width: 4rem;
+    height: 1rem;
+   border-radius: .3rem;
+   
+}
+
+.candidate_img{
+    margin-bottom: 1rem;
+}
+
+.candidate_img input{
+    font-size: .7rem;
+    border: none;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.approve {
+    width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+    text-align: left;
+}
+}
+
+@media screen and (min-width: 451px) and (max-width: 668px) {
+    .InitiateForm_box{
+    width: 80%;
+    border-radius: 1rem;
+    margin: auto;
+    padding-block: 1rem;
+    text-align: center;
+    display: block;
+    box-shadow: 2px 1px 3px 3px rgb(141, 135, 135);
+    padding: 2rem 2rem;
+    
+}
+
+.InitiateForm_box h3{
+    font-size: 1rem;
+}
+
+.InitiateForm_box_form{
+    text-align: left;
+}
+
+.InitiateForm_box_form_label{
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+    padding: .4rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+}
+
+.InitiateForm_box_form{
+    display: grid;
+    gap: .7rem;
+}
+
+.InitiateForm_box_form_input{
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+    padding: .3rem;
+    width: 55%;
+}
+
+.InitiateForm_box_form_res input {
+  cursor: pointer;
+  height: 1.1rem;
+  width: 1.1rem;
+}
+
+.InitiateForm_box_form_duration input{
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: .3rem;
+    background: transparent;
+    border: solid 2px rgb(144, 105, 222);
+    
+}
+.InitiateForm_box_form_start input{
+    width: 2rem;
+    height: 1.5rem;
+    background: transparent;
+    border-radius: .3rem;
+    border: solid 2px rgb(144, 105, 222);
+}
+
+.InitiateForm_box_form_name{
+    margin-bottom: 1rem;
+}
+.InitiateForm_box_form_res{
+    margin-bottom: 1rem;
+}
+.InitiateForm_box_form_duration{
+    margin-bottom: 1rem;
+}
+.InitiateForm_box_form_start{
+    margin-bottom: 1rem;
+}
+
+.InitiateForm_box_form_btn{
+    text-align: center;
+    padding: .5rem;
+    width: 50%;
+    border-radius: .5rem;
+    background-color: rgb(144, 105, 222);
+    color: white;
+    font-weight: 800;
+    font-size: .8rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+
+.candidateBox{
+    text-align: left;
+}
+
+.candidate_id{
+    margin-bottom: 1.4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.candidate_id input{
+    width: 4rem;
+    height: 1rem;
+   border-radius: .3rem;
+   
+}
+
+.candidate_img{
+    margin-bottom: 1rem;
+}
+
+.candidate_img input{
+    font-size: .7rem;
+    border: none;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+}
+@media screen and (min-width: 670px) and (max-width: 1024px) {
+    .InitiateForm_box{
+    width: 80%;
+    border-radius: 1rem;
+    margin: auto;
+    padding-block: 1rem;
+    text-align: center;
+    display: block;
+    box-shadow: 2px 1px 3px 3px rgb(141, 135, 135);
+    padding: 2rem 2rem;
+    
+}
+
+.InitiateForm_box h3{
+    font-size: 1rem;
+}
+
+.InitiateForm_box_form{
+    text-align: left;
+}
+
+.InitiateForm_box_form_label{
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+    padding: .4rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+}
+
+.InitiateForm_box_form{
+    display: grid;
+    gap: .7rem;
+}
+
+.InitiateForm_box_form_input{
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+    padding: .3rem;
+    width: 55%;
+}
+
+.InitiateForm_box_form_res input {
+  cursor: pointer;
+  height: 1.1rem;
+  width: 1.1rem;
+}
+
+.InitiateForm_box_form_duration input{
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: .3rem;
+    background: transparent;
+    border: solid 2px rgb(144, 105, 222);
+    
+}
+.InitiateForm_box_form_start input{
+    width: 2rem;
+    height: 1.5rem;
+    background: transparent;
+    border-radius: .3rem;
+    border: solid 2px rgb(144, 105, 222);
+}
+
+.InitiateForm_box_form_name{
+    margin-bottom: 1rem;
+}
+.InitiateForm_box_form_res{
+    margin-bottom: 1rem;
+}
+.InitiateForm_box_form_duration{
+    margin-bottom: 1rem;
+}
+.InitiateForm_box_form_start{
+    margin-bottom: 1rem;
+}
+
+.InitiateForm_box_form_btn{
+    text-align: center;
+    padding: .5rem;
+    width: 50%;
+    border-radius: .5rem;
+    background-color: rgb(144, 105, 222);
+    color: white;
+    font-weight: 800;
+    font-size: .8rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+
+.candidateBox{
+    text-align: left;
+}
+
+.candidate_id{
+    margin-bottom: 1.4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.candidate_id input{
+    width: 4rem;
+    height: 1rem;
+   border-radius: .3rem;
+   
+}
+
+.candidate_img{
+    margin-bottom: 1rem;
+}
+
+.candidate_img input{
+    font-size: .7rem;
+    border: none;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+}
